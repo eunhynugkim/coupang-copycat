@@ -1,0 +1,62 @@
+.top-bar #subscribe-header {
+    float: left;
+}
+
+.top-bar #subscribe-header li {
+    margin: 10px 0 0 12px;
+}
+
+.top-bar #header-menu li {
+    margin: 10px 12px 0 0;
+}
+
+.top-bar #header-menu {
+    float: right;
+}
+
+.top-bar menu li {
+    position:relative;
+    float: left;
+    font-size: 11px;
+    line-height: 10px;
+}
+
+.top-bar menu {
+    padding: 0;
+    margin: 0;
+
+}
+
+.top-bar {
+
+    height: 32px;
+    background-color: #F0F0F0;
+}
+
+.top-bar .content {
+    margin: 0 auto;
+    width: 1020px;
+}
+
+.top-bar .ic {
+    display: inline-block;
+    background-image: url(http://static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+    background-repeat: no-repeat;
+    margin-top: -2px;
+    margin-left: 4px;
+    padding-left: 10px;
+    vertical-align: middle;
+    width: 5px;
+    height: 3px;
+    background-position: -153px -36px;
+}
+
+.top-bar .vendor-join p {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 0px;
+    background-color: white;
+    top:30px;
+
+}

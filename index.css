@@ -1,0 +1,17 @@
+/*
+공통된 스타일
+
+ex) body, html, input, .blue, .none
+ */
+body, html{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
