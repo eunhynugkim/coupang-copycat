@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="index.css"/>
-    <link rel="stylesheet" href="top-bar.css"/>
+    <link rel="stylesheet" href="header.css"/>
 </head>
 <body>
 <header>
@@ -16,11 +16,11 @@
                 <li class="vendor-join">
                     <a>입점신청 <i class="ic"></i></a>
 
-                    <p>
-                        <a>a</a>
-                        <a>b</a>
-                        <a>c</a>
-                        <a>d</a>
+                    <p class="drop-box">
+                        <a href="https://wing.coupang.com/vendor/joining/welcome?inflow=WEB_HEADER_B">배송상품</a>
+                        <a href="https://with.coupang.com/contract/initialize?inflow=WEB_HEADER_B">여행 티켓</a>
+                        <a href="https://supplier.coupang.com/welcome/join">로켓배송</a>
+                        <a href="https://partners.coupang.com">제휴마켓팅</a>
 
                     </p>
 
@@ -33,9 +33,58 @@
                     <a href="https://login.coupang.com/login/login.pang?rtnUrl=https%3A%2F%2Fwww.coupang.com%2Fnp%2Fpost%2Flogin%3Fr%3Dhttps%253A%252F%252Fwww.coupang.com%252F%253Fsrc%253D1042016%2526spec%253D10304903%2526addtag%253D300%2526ctag%253DRSA1%2526lptag%253D%2525EC%2525BF%2525A0%2525ED%25258C%2525A1%2526itime%253D20190803124101%2526wPcid%253D99378952538231302945499%2526wRef%253Dwww.google.com%2526wTime%253D20190803124101%2526redirect%253Dlanding%2526forceBypass%253DY%2526gclid%253DCj0KCQjwvo_qBRDQARIsAE-bsH_b9fYR7r6Svv-TFZeD9cUDAAEUOasXgSZtm-OwdjjCXD86hIZQV_waAsnwEALw_wcB%2526pageType%253DHOME">로그인</a>
                 </li>
                 <li><a href="https://login.coupang.com/login/memberJoinFrm.pang">회원가입</a></li>
-                <li><a href="https://csmessenger.coupang.com/cs-center/faq/main">고객센터</a></li>
+                <li class="customer-center"><a href="https://csmessenger.coupang.com/cs-center/faq/main">고객센터</a>
+                    <p class="drop-box">
+                        <a href="https://csmessenger.coupang.com/cs-center/faq/main">자주묻는 질문</a>
+                        <a href="https://csmessenger.coupang.com/cs-center/chat/main">1:1 채팅문의</a>
+                        <a href="https://csmessenger.coupang.com/cs-center/voc/main">고객의 소리</a>
+                        <a href="https://www.coupang.com/returnPolicy.pang">취소 /반품안내</a>
+                        <a href="https://www.coupang.com/wowServiceInfo.pang">WOW 서비스</a>
+
+                    </p></li>
+
 
             </menu>
+        </div>
+    </section>
+    <section class="header-category">
+        <div class="category">카테고리</div>
+        <div class="gnb-container">
+            <div class="clearfix">
+                <h1 class="logo"></h1>
+                <div class="search"></div>
+                <div class="icon-menus">
+                    <li class="mypage"></li>
+                    <li class="cart"></li>
+                </div>
+            </div>
+
+            <ul class="gnb">
+                <li class="rocket-delivery">
+                    <a href="https://www.coupang.com/np/campaigns/82" class="rocket-delivery ">로켓배송</a>
+                </li>
+                <li class="coupang-global">
+                    <a href="https://www.coupang.com/np/coupangglobal" class="coupang-global ">로켓직구</a>
+                </li>
+                <li class="">
+                    <a href="https://www.coupang.com/np/goldbox" class=" ">골드박스</a>
+                </li>
+                <li class="subscription">
+                    <a href="https://www.coupang.com/np/subscriptiondelivery" class="subscription ">정기배송</a>
+                </li>
+                <li class="gnb-coupangbenefit">
+                    <a href="https://www.coupang.com/np/coupangbenefit" class="gnb-coupangbenefit ">이벤트/쿠폰</a>
+                </li>
+                <li class="gnb-exhibition">
+                    <a href="https://www.coupang.com/np/exhibition" class="gnb-exhibition ">기획전</a>
+                </li>
+                <li class="giftcard">
+                    <a href="https://www.coupang.com/np/categories/305044" class="giftcard ">기프트카드</a>
+                </li>
+                <li>
+                    <a href="https://trip.coupang.com?channel=gnb" class="travel">여행/티켓</a>
+                </li>
+            </ul>
         </div>
     </section>
 </header>
@@ -43,5 +92,40 @@
 </main>
 <footer>
 </footer>
+<script>
+    document.getElementsByClassName("vendor-join")[0]
+        .addEventListener('mouseover', function () {
+            console.log("in")
+
+            var p = document.getElementsByClassName("vendor-join")[0]
+                .getElementsByTagName('p')[0];
+            p.style.display = "block";
+        })
+    document.getElementsByClassName("vendor-join")[0]
+        .addEventListener('mouseout', function () {
+            console.log("mouseout")
+            var p = document.getElementsByClassName("vendor-join")[0]
+                .getElementsByTagName('p')[0];
+            p.style.display = "none";
+        })
+
+    document.getElementsByClassName("customer-center")[0]
+        .addEventListener('mouseover', function () {
+            console.log("in")
+
+            var p = document.getElementsByClassName("customer-center")[0]
+                .getElementsByTagName('p')[0];
+            p.style.display = "block";
+        })
+    document.getElementsByClassName("customer-center")[0]
+        .addEventListener('mouseout', function () {
+            console.log("mouseout")
+            var p = document.getElementsByClassName("customer-center")[0]
+                .getElementsByTagName('p')[0];
+            p.style.display = "none";
+        })
+
+
+</script>
 </body>
 </html>

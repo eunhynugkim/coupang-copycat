@@ -3,11 +3,11 @@
 }
 
 .top-bar #subscribe-header li {
-    margin: 10px 0 0 12px;
+    padding: 10px 0 10px 12px;
 }
 
 .top-bar #header-menu li {
-    margin: 10px 12px 0 0;
+    padding: 10px 12px 10px 0;
 }
 
 .top-bar #header-menu {
@@ -15,7 +15,7 @@
 }
 
 .top-bar menu li {
-    position:relative;
+    position: relative;
     float: left;
     font-size: 11px;
     line-height: 10px;
@@ -51,12 +51,54 @@
     background-position: -153px -36px;
 }
 
-.top-bar .vendor-join p {
+.drop-box {
     position: absolute;
     top: 0;
     margin: 0;
-    left: 0px;
+    right: -12px;
     background-color: white;
-    top:30px;
+    top: 30px;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 8px 20px 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    display: none;
 
 }
+
+.drop-box a {
+    display: block;
+    white-space: nowrap;
+    padding-top: 12px;
+
+}
+
+.drop-box a:hover {
+    color: #4285F4;
+    text-decoration: underline;
+}
+
+.category {
+    width: 110px;
+    height: 115px;
+    display: inline-block;
+    font-size:12px;
+}
+
+.header-category {
+    width: 1020px;
+    margin:0 auto;
+    font-size:0;
+}
+.gnb-container{
+    width: calc(100% - 110px);
+    display: inline-block;
+    font-size: 12px;
+}
+.gnb li{
+    display: inline-block;
+}
+/*.vendor-join:hover > p{*/
+/*    display:block;*/
+/*}*/
