@@ -83,22 +83,120 @@
     width: 110px;
     height: 115px;
     display: inline-block;
-    font-size:12px;
+    font-size: 12px;
 }
 
 .header-category {
     width: 1020px;
-    margin:0 auto;
-    font-size:0;
+    margin: 0 auto;
+    font-size: 0;
 }
-.gnb-container{
-    width: calc(100% - 110px);
+
+.gnb-container {
+    width: calc(100% - 140px);
     display: inline-block;
     font-size: 12px;
+    padding-left: 30px;
+    padding-top: 25px;
 }
-.gnb li{
+
+.gnb li {
     display: inline-block;
 }
+
 /*.vendor-join:hover > p{*/
 /*    display:block;*/
 /*}*/
+.category {
+    width: 110px;
+    height: 42px;
+    background-image: url("https://static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png");
+    background-repeat: no-repeat;
+    vertical-align: top;
+    padding-top: 73px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    background-position: 0 0;
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.logo {
+    margin: 0;
+    margin-top: 2px;
+    margin-right: 16px;
+    display: inline-block;
+}
+
+.search {
+    display: inline-block;
+    border: 2px solid #4285f4;
+    height: 37px;
+    width: 518px;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.select-category {
+    border-right: 1px solid #ddd;
+    width: 134px;
+    height: 37px;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.select-category-button{
+    background: url("//img1a.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png") 6px -165px no-repeat;
+    width: 30px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: middle;
+}
+.select-category-current{
+    display:inline-block;
+    vertical-align: middle;
+    width: 104px;
+    font-size: 12px;
+    font-weight: normal;
+    text-indent: 10px;
+}
+.select-category .drop-box{
+    top:37px;
+
+    width: calc(100% + 1px);
+    padding:0 0 10px 0;
+    text-indent: 10px;
+    left: -2px;
+    max-height: 875px;
+    overflow: scroll;
+}
+.coupang-search{
+    width: calc(100% - 135px);
+    display: inline-block;
+    height: inherit;
+}
+
+.coupang-search .search-input{
+    width: 276px;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    color: #333;
+    height: inherit;
+    padding: 0px;
+}
+.search form{
+    height: inherit;
+}
+.coupang-search .speech-mic{
+    width: 26px;
+    height: 26px;
+    background: url(https://img1a.coupangcdn.com/image/coupang/common/ic_mic.png) 3px 1px no-repeat;
+    background-size: 20px 48px;
+    display: inline-block;
+
+}
