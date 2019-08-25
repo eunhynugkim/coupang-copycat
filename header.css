@@ -149,54 +149,89 @@
     display: inline-block;
     vertical-align: top;
 }
-.select-category-button{
+
+.select-category-button {
     background: url("//img1a.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png") 6px -165px no-repeat;
     width: 30px;
     height: inherit;
     display: inline-block;
     vertical-align: middle;
 }
-.select-category-current{
-    display:inline-block;
+
+.select-category-current {
+    display: inline-block;
     vertical-align: middle;
     width: 104px;
     font-size: 12px;
     font-weight: normal;
     text-indent: 10px;
 }
-.select-category .drop-box{
-    top:37px;
+
+.select-category .drop-box {
+    top: 37px;
 
     width: calc(100% + 1px);
-    padding:0 0 10px 0;
+    padding: 0 0 10px 0;
     text-indent: 10px;
     left: -2px;
     max-height: 875px;
     overflow: scroll;
 }
-.coupang-search{
+
+.coupang-search {
     width: calc(100% - 135px);
     display: inline-block;
     height: inherit;
 }
 
-.coupang-search .search-input{
-    width: 276px;
+.coupang-search .search-input {
+    width: 306px;
     text-indent: 10px;
     outline: none;
     border: none;
     color: #333;
     height: inherit;
     padding: 0px;
+    vertical-align: top;
 }
-.search form{
+
+.search form {
     height: inherit;
 }
-.coupang-search .speech-mic{
+
+.coupang-search .speech-mic {
     width: 26px;
     height: 26px;
+    vertical-align: top;
     background: url(https://img1a.coupangcdn.com/image/coupang/common/ic_mic.png) 3px 1px no-repeat;
     background-size: 20px 48px;
     display: inline-block;
+    margin-top: 5px;
 
+}
+
+.coupang-search .header-search-btn {
+    background-image: url(https://static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 39px;
+    background-position: -112px -71px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.gnb {
+    padding: 0;
+}
+
+.gnb li.rocket-delivery {
+    background-image: url(https://static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_180104.png);
+    padding-left: 10px;
+    background-position: 0 -118px;
+}
+
+.gnb a {
+    padding: 7px 14px 0;
+    font-weight: normal;
+    display: block;
 }
